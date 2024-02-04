@@ -1,6 +1,6 @@
 # Integration Platform Application Automated Test Tool
 
-** This application is currently being refactored **
+**This application is currently being refactored**
 
 - Version: 1.0
 - Developer: Josh Smith
