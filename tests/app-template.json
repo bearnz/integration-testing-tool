@@ -1,0 +1,81 @@
+{
+	"http": {
+		"hosts": {
+			"local": "http://localhost:8081",
+			"dev": "https://PLACEHOLDER/v1/ app-name-here",
+			"qa": "https://PLACEHOLDER/v1/ app-name-here",
+			"test-1": "https://PLACEHOLDER/v1/ app-name-here"
+		},
+		"integrations": {
+			"int-1": [
+				{
+					"id": "Smoke Test",
+					"expectedResponse": 200,
+					"endpoint": "",
+					"method": "get",
+					"useFile": "False",
+					"queryParams": {},
+					"headers": {},
+					"payload": {}
+				}
+			],
+			"int-2": [
+				{
+					"id": "Smoke Test",
+					"expectedResponse": 200,
+					"endpoint": "",
+					"method": "post",
+					"useFile": "True",
+					"queryParams": {},
+					"headers": {},
+					"payload": {}
+				}
+			]
+		}
+	},
+	"kinesis": {
+		"integrations": {
+			"int-3": {
+				"streamName": "int-",
+				"useFile": "False",
+				"execTime": 5,
+				"tests": [
+					{
+						"id": "Smoke Test",
+						"payload": {
+							"document": {
+								"value": ""
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"salesforce": {
+		"integrations": {
+			"int-4": {
+				"eventName": "",
+				"useFile": "False",
+				"execTime": 7,
+				"tests": [
+					{
+						"id": "Smoke Test",
+						"payload": {}
+					}
+				]
+			},
+			"int-5": {
+				"eventName": "",
+				"useFile": "False",
+				"execTime": 7,
+				"tests": [
+					{
+						"id": "Smoke Test",
+						"payload": {}
+					}
+				]
+			}
+		}
+	}
+}

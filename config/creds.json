@@ -1,0 +1,91 @@
+{
+	"local": {
+		"http": {
+			"client_id": "",
+			"client_secret": "",
+			"endpoint": "",
+			"scope": ""
+		},
+		"kinesis": {
+			"accessKey": "PLACEHOLDER",
+			"secretKey": "PLACEHOLDER",
+			"region": "ap-southeast-2"
+		},
+		"salesforce": {
+			"consumerKey": "PLACEHOLDER",
+			"keyStore": "PLACEHOLDER",
+			"storePassword": "PLACEHOLDER",
+			"certificateAlias": "PLACEHOLDER",
+			"principal": "PLACEHOLDER",
+			"tokenEndpoint": "PLACEHOLDER"
+		}
+	},
+	"dev": {
+		"http": {
+			"client_id": "PLACEHOLDER",
+			"client_secret": "PLACEHOLDER",
+			"endpoint": "PLACEHOLDER",
+			"scope": "PLACEHOLDER"
+		},
+		"kinesis": {
+			"accessKey": "PLACEHOLDER",
+			"secretKey": "PLACEHOLDER",
+			"kinesisRegion": "PLACEHOLDER"
+		},
+		"salesforce": {
+			"consumerKey": "PLACEHOLDER",
+			"keyStore": "PLACEHOLDER",
+			"storePassword": "PLACEHOLDER",
+			"certificateAlias": "PLACEHOLDER",
+			"principal": "PLACEHOLDER",
+			"tokenEndpoint": "PLACEHOLDER"
+		}
+	},
+	"qa": {
+		"http": {
+			"client_id": "PLACEHOLDER",
+			"client_secret": "PLACEHOLDER",
+			"endpoint": "PLACEHOLDER",
+			"scope": "PLACEHOLDER"
+		},
+		"kinesis": {
+			"accessKey": "PLACEHOLDER",
+			"secretKey": "PLACEHOLDER",
+			"kinesisRegion": "PLACEHOLDER"
+		},
+		"salesforce": {
+			"consumerKey": "PLACEHOLDER",
+			"keyStore": "PLACEHOLDER",
+			"storePassword": "PLACEHOLDER",
+			"certificateAlias": "PLACEHOLDER",
+			"principal": "PLACEHOLDER",
+			"tokenEndpoint": "PLACEHOLDER"
+		}
+	},
+	"test-1": {
+		"http": {
+			"client_id": "PLACEHOLDER",
+			"client_secret": "PLACEHOLDER",
+			"endpoint": "PLACEHOLDER",
+			"scope": "PLACEHOLDER"
+		},
+		"kinesis": {
+			"accessKey": "PLACEHOLDER",
+			"secretKey": "PLACEHOLDER",
+			"kinesisRegion": "PLACEHOLDER"
+		},
+		"salesforce": {
+			"consumerKey": "PLACEHOLDER",
+			"keyStore": "PLACEHOLDER",
+			"storePassword": "PLACEHOLDER",
+			"certificateAlias": "PLACEHOLDER",
+			"principal": "PLACEHOLDER",
+			"tokenEndpoint": "PLACEHOLDER"
+		}
+	},
+	"cloudhub" : {
+		"client_id": "PLACEHOLDER",
+		"client_secret": "PLACEHOLDER",
+		"org_id": "PLACEHOLDER"
+	}
+}
