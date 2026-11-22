@@ -177,3 +177,12 @@ after a wait period has elapsed to allow the logs to be retrievable.
 The log file will be available in `execution.log` in the mule-tester directory.  
 **NOTE: The Cloudhub API is very unreliable and retrieving the log files using it is not recommended. If the output log file is incomplete or empty, revert to reviewing the logs in Runtime Manager in Cloudhub. Logs will be truncated if they exceed the cloudhub character limit.**  
 **Once logs are piped into an external service, this functionality should be deprecated.**  
+
+## Copyright
+
+Copyright (c) 2024-2025 Josh (github.com/bearnz). All rights reserved.
+
+No licence is granted. You are welcome to read this code and to fork it on
+GitHub; you may not use, copy, modify or redistribute it without permission.
+See [NOTICE](NOTICE) for the terms, and open an issue if you would like to use
+any of it.
